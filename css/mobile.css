@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Gloock", serif;
+  font-family: "Rubik", sans-serif;
+  background-color: rgb(18, 16, 128);
+  overflow: hidden;
+}
+
+.logo {
+  display: flex;
+  margin: 20px 31px;
+}
+
+.logo img {
+  width: 12rem;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+}
+
+.home .fast {
+  color: aqua;
+  font-size: 7rem;
+  width: 962px;
+  margin-top: 160px;
+  margin-left: 25px;
+}
+
+.home .secont {
+  color: aqua;
+  font-size: 8rem;
+  margin: 0px 23px;
+}
+
+.home p {
+  color: wheat;
+  font-size: 1.9rem;
+  width: 532px;
+  margin: 13px 29px;
+}
+
+.btn {
+  background-color: aqua;
+  color: #0c0c0b;
+  display: block;
+  width: 445px;
+  padding: 19px;
+  margin: 23px 29px;
+  border-radius: 14px;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  font-size: 40px;
+}
+
+.follow {
+  display: flex;
+  flex-direction: column;
+}
+.follow img {
+  position: relative;
+  width: 76px;
+  left: 10%;
+  top: 270px;
+}
+
+.follow p {
+  display: flex;
+  position: relative;
+  font-size: 30px;
+  left: 23%;
+  top: 175px;
+}
+
+.img1 {
+  display: none;
+}
+
+.img2 {
+  position: absolute;
+  top: 6%;
+  left: 98%;
+}
+
+.img2 img {
+  position: absolute;
+  width: 240px;
+  z-index: -1;
+}
+
+.img3 {
+  position: absolute;
+  top: 16%;
+  left: 24%;
+}
+
+.img3 img {
+  width: 140px;
+  z-index: -1;
+}
+
+.img4 {
+  display: none;
+}
+
+.img5 {
+  display: none;
+}
+
+.img6 {
+  position: absolute;
+  top: 95%;
+  left: 75%;
+}
+
+.img6 img {
+  position: absolute;
+  z-index: -1;
+  width: 260px;
+}
